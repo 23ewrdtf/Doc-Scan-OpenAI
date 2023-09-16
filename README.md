@@ -35,6 +35,30 @@ To use DocScanner, please follow the steps below:
 
 5. After the installation is complete, you are ready to start using DocScanner!
 
+## Docker
+
+To use DocScanner as a docker container, please see below:
+
+1. Clone the repository to your local machine.
+
+2. Export OPENAI API Key
+
+```
+export OPENAI_API_KEY="<KEY>"
+```
+
+3. Build docker container:
+
+```
+docker build --build-arg OPENAI_API_KEY=${OPENAI_API_KEY} -f Dockerfile -t name_tag .
+```
+
+4. Run docker container:
+
+```
+docker run --rm -p 8080:8080 name_tag
+```
+
 ## Usage
 
 To use DocScanner, follow the steps below:
