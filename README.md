@@ -57,6 +57,8 @@ set OPENAI_API_KEY=<KEY>
 
 3. Build docker container:
 
+Linux:
+
 ```
 docker build --build-arg OPENAI_API_KEY=${OPENAI_API_KEY} -f Dockerfile -t name_tag .
 ```
