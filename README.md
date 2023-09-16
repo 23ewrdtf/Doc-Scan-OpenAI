@@ -43,8 +43,16 @@ To use DocScanner as a docker container, please see below:
 
 2. Export OPENAI API Key
 
+Linux:
+
 ```
 export OPENAI_API_KEY="<KEY>"
+```
+
+Windows:
+
+```
+set OPENAI_API_KEY=<KEY>
 ```
 
 3. Build docker container:
